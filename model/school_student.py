@@ -17,6 +17,7 @@ class SchoolStudent(models.Model):
     description = fields.Text(string = "توضیحات")
     gender = fields.Selection([('male','مرد'),('female','زن')], string = "جنسیت")
     class_id = fields.Many2one("school.classroom", string="نام کلاس")
+    subject_ids = fields.Many2many("school.subject", string="درس")
 
 
 

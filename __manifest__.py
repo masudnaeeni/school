@@ -12,6 +12,7 @@
 
         'views/school_student_views.xml',
         'views/school_classroom_views.xml',
+        'views/school_subject_views.xml',
 
         'views/menu.xml',
 

@@ -21,6 +21,15 @@
                 action="action_school_classroom"
                 sequence="2"/>
 
+        <menuitem
+                id="school_menu_school_subject"
+                name="درس ها"
+                parent="school_menu_root"
+                action="action_school_subject"
+                sequence="3"/>
+
+
+
 
 
 

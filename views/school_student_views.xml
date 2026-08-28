@@ -39,6 +39,7 @@
                                     <field name="average"/>
                                     <field name="is_active"/>
                                     <field name="class_id"/>
+                                    <field name="subject_ids"/>
                                 </group>
                                 <group>
                                     <field name="grade"/>
