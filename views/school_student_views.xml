@@ -38,6 +38,7 @@
                                     <field name="email"/>
                                     <field name="average"/>
                                     <field name="is_active"/>
+                                    <field name="class_id"/>
                                 </group>
                                 <group>
                                     <field name="grade"/>
