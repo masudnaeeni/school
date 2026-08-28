@@ -16,7 +16,7 @@
                     <sheet>
                         <div class="oe_title">
                             <h1>
-                                <field name="last_name" string="نام"/>
+                                <field name="name"/>
                             </h1>
                         </div>
                         <group>

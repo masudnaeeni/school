@@ -29,6 +29,15 @@
                 sequence="3"/>
 
 
+                <menuitem
+                id="school_menu_school_grade"
+                name="نمرات"
+                parent="school_menu_root"
+                action="action_school_grade"
+                sequence="4"/>
+
+
+
 
 
 

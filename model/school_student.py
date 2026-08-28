@@ -4,6 +4,7 @@ class SchoolStudent(models.Model):
     _name = 'school.student'
     _description = 'School Student'
 
+    name = fields.Char(string='نام و نام خانوادگی', required=True)
     first_name = fields.Char(string ="نام" , required=True)
     last_name = fields.Char(string = "نام خانوادگی",required=True)
     birth_date = fields.Date(string = "تاریخ تولد",required=True, default=fields.Date.today())
@@ -18,6 +19,7 @@ class SchoolStudent(models.Model):
     gender = fields.Selection([('male','مرد'),('female','زن')], string = "جنسیت")
     class_id = fields.Many2one("school.classroom", string="نام کلاس")
     subject_ids = fields.Many2many("school.subject", string="درس")
+    grade_ids = fields.One2many("school.grade",'student_id', string="نمره ثبت شده")
 
 
 
