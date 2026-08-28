@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem
+                id="school_menu_root"
+                name="دانش آموزان"
+                web_icon="school,static/description/icon.png"/>
+
+        <menuitem
+                id="school_menu_school_student"
+                name="اطلاعات"
+                parent="school_menu_root"
+                action="action_school_student"
+                sequence="1"/>
+
+
+
+    </data>
+</odoo>

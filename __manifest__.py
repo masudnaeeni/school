@@ -9,6 +9,11 @@
     'category': 'شخصی/student',
     'data': [
         'security/ir.model.access.csv',
+
+        'views/school_student_views.xml',
+
+        'views/menu.xml',
+
     ],
 
 
